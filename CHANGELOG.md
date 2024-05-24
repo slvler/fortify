@@ -1,6 +1,40 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/fortify/compare/v1.18.1...1.x)
+## [Unreleased](https://github.com/laravel/fortify/compare/v1.21.3...1.x)
+
+## [v1.21.3](https://github.com/laravel/fortify/compare/v1.21.2...v1.21.3) - 2024-05-08
+
+* [1.x] Ensure logout route is authenticated by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/fortify/pull/536
+
+## [v1.21.2](https://github.com/laravel/fortify/compare/v1.21.1...v1.21.2) - 2024-04-25
+
+* [1.x] Bacon QR 3.0 support by [@eshimischi](https://github.com/eshimischi) in https://github.com/laravel/fortify/pull/534
+
+## [v1.21.1](https://github.com/laravel/fortify/compare/v1.21.0...v1.21.1) - 2024-03-19
+
+* Specify return type array type by [@santigarcor](https://github.com/santigarcor) in https://github.com/laravel/fortify/pull/525
+* [1.x] Make commands lazy by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/fortify/pull/527
+
+## [v1.21.0](https://github.com/laravel/fortify/compare/v1.20.1...v1.21.0) - 2024-03-08
+
+* [1.x] Adds `fortify:install` Artisan command by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/fortify/pull/524
+
+## [v1.20.1](https://github.com/laravel/fortify/compare/v1.20.0...v1.20.1) - 2024-02-08
+
+* Don't overwrite an already two factor secret unless force = true by [@danmatthews](https://github.com/danmatthews) in https://github.com/laravel/fortify/pull/518
+* Use `Date` facade for storing the password confirmation timestamp by [@chrisvanlier2005](https://github.com/chrisvanlier2005) in https://github.com/laravel/fortify/pull/520
+
+## [v1.20.0](https://github.com/laravel/fortify/compare/v1.19.1...v1.20.0) - 2024-01-15
+
+* [1.x] Merges develop by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/fortify/pull/515
+
+## [v1.19.1](https://github.com/laravel/fortify/compare/v1.19.0...v1.19.1) - 2023-12-11
+
+* Deprecate the password rule and use illuminate password rule by [@ricklambrechts](https://github.com/ricklambrechts) in https://github.com/laravel/fortify/pull/511
+
+## [v1.19.0](https://github.com/laravel/fortify/compare/v1.18.1...v1.19.0) - 2023-11-27
+
+- Add new event by @taylorotwell in https://github.com/laravel/fortify/commit/2da721fead1f3bc18af983e4903c4e1df67177e7
 
 ## [v1.18.1](https://github.com/laravel/fortify/compare/v1.18.0...v1.18.1) - 2023-10-18
 
